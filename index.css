@@ -1,0 +1,66 @@
+/* Write your code here. */
+*box {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.background {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.heading {
+  font-size: 23px;
+  font-weight: 400;
+}
+.cardContainer {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #cffafe;
+  width: 50vh;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-image1 {
+  width: 95px;
+}
+.logo-image2 {
+  width: 80px;
+}
+.name {
+  font-size: 20px;
+  font-weight: 400;
+}
+.institute-name {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+  .logo-image1 {
+    width: 160px;
+  }
+  .logo-image2 {
+    width: 140px;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .institute-name {
+    font-size: 20px;
+  }
+}
